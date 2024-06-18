@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import filedialog, colorchooser, messagebox
 import customtkinter as ctk
 from PIL import Image, ImageDraw, ImageFont
-import os
 from fontTools.ttLib import TTFont
 
 class TextGridApp:
