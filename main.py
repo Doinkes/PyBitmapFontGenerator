@@ -106,7 +106,7 @@ class TextGridApp:
             return
 
         # Создание имени выходного файла
-        output_file = f"{self.font_name}_size{self.font_size}_bitmap.png"
+        output_file = f"{self.font_name}_CellSize{self.cell_size}_FontSize{self.font_size}_bitmap.png"
 
         # Создание изображения с прозрачным фоном
         img_width = self.cols * self.cell_size
